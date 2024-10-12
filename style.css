@@ -1,0 +1,48 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;align-items: center;justify-content: center;
+   
+}
+.hero img{
+    height: 400px;
+    outline: none;
+}
+.main,.project,.certificate,.accordian,.hero{
+    padding: 80px;
+}
+.cards{
+    padding-top: 30px;
+}
+.cards img{
+    height: 300px !important;
+    object-fit: cover;
+}
+
+.projectimg{
+    padding-top: 30px;
+}
+.card img{
+    padding: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .hero img{
+        height: 270px;
+        outline: none;
+    }
+    .main,.project,.certificate,.accordian{
+        padding: 40px; 
+    }
+    .hero{
+        padding: 40px;
+        
+    }
+
+   
+}
